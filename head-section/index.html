@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-- lang เอาไว้ใช้บอกว่าภาษาหลักของหน้าเว็บนั้นๆ (ถ้าเป็นภาษาไทยให้ตั้งเป็น th) -->
+<html lang="en">
+  <head>
+    <!-- character set เอาไว้บอกว่าใช้ตัวอักษรอะไรได้บ้าง => UTF-8 คือมาตรฐานที่ใช้กันในปัจจุบัน ครอบคลุมเกือบทุกตัวอักษรและทุกภาษาในโลก -->
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- meta: viewport เอาไว้ใช้บอก browser เรื่องขนาดหน้าจอ -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- meta description เอาไว้ใช้บอก search engine ว่าหน้าเว็บนี้เกี่ยวกับอะไร -->
+    <meta name="description" content="Teach coding" />
+
+    <!-- meta og:title เอาไว้ใช้สำหรับแสดง title เวลา post บน social media -->
+    <meta name="og:title" content="Coding beaver" />
+
+    <!-- meta og:description เอาไว้ใช้สำหรับแสดง description เวลา post บน social media -->
+    <meta name="og:description" content="Teach coding" />
+
+    <!-- meta og:image รูปสำหรับแสดง เวลา post บน social media -->
+    <meta name="og:image" content="your-image-url" />
+
+    <!-- link: ใช้สำหรับนำเข้า ได้หลายอย่าง แต่ในกรณีนี้ยกตัวอย่างการนำเข้า font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pushster&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Head section notes</title>
+
+    <!-- style: เอาไว้เขียน CSS แบบ internal CSS ใช้สำหรับตกแต่ง html ในหน้าเว็บนั้นๆให้สวยงามมากขึ้น -->
+    <style>
+      body {
+        background-color: #09BC8A;
+        height: 100vh;
+      }
+
+      h1 {
+        font-family: "Pushster";
+        text-align: center;
+        color: white;
+        font-size: 6rem;
+      }
+
+      p {
+        font-size: 2rem;
+        color: #004346;
+      }
+
+      .center {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      @font-face {
+        font-family: "Pushster", serif;
+        font-size: 48px;
+      }
+    </style>
+
+  </head>
+  <body>
+    <div class="center">
+      <h1>Coding beaver</h1>
+      <p>
+        ขอเป็นกำลังใจให้ทุกคนเรียนรู้ต่อไปนะครับ
+      </p>
+    </div>
+  </body>
+</html>
