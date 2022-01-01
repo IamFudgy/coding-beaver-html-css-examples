@@ -5,4 +5,4 @@
 ## 📖 ตัวอย่าง Code
 - [HTML แบบมี และไม่มี CSS](https://github.com/IamFudgy/coding-beaver-html-css-examples/tree/master/styled-vs-unstyled-html)
 - [Web page หน้าแรก: จดหมายถึงตัวเอง](https://github.com/IamFudgy/coding-beaver-html-css-examples/blob/master/first-web-page/index.html)
-- [head section](https://github.com/IamFudgy/coding-beaver-html-css-examples/blob/master/head-section/index.html)
+- [รู้จัก HTML tag: head section](https://github.com/IamFudgy/coding-beaver-html-css-examples/blob/master/head-section/index.html)
