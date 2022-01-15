@@ -24,10 +24,36 @@
 
 เอาไว้ใช้สำหรับเขียนข้อความทั่วไป
 
+### ตัวอย่าง
+
+```html
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae
+  earum fuga exercitationem consequuntur! Aperiam officia amet repellendus
+  dolores temporibus ipsa!
+</p>
+```
+
 ## Strong tag
 
 เอาไว้ใช้สำหรับเน้นสิ่งที่สำคัญ อยากให้สะดุดตาผู้อ่าน และมักสำคัญกว่าข้อความรอบข้าง มี style bold (ตัวหนา) ติดมาด้วย แต่สามารถปรับแต่งได้ด้วย CSS ภายหลัง
 
+### ตัวอย่าง
+
+```html
+<p>
+  ข้อความทั่วไป ข้อความทั่วไป ข้อความทั่วไป ข้อความทั่วไป <strong>ข้อความที่อยากเน้น</strong> ข้อความทั่วไป
+</p>
+```
+
 ## Emphasize tag (em tag)
 
 เอาไว้ใช้เน้นข้อความ แต่ไม่เน้นเท่า strong tag มี style italic (ตัวเอียง) ติดมาด้วย แต่สามารถปรับแต่งได้ด้วย CSS ภายหลัง
+
+### ตัวอย่าง
+
+```html
+<p>
+  ข้อความทั่วไป ข้อความทั่วไป ข้อความทั่วไป ข้อความทั่วไป <em>ข้อความที่อยากเน้น</em> ข้อความทั่วไป
+</p>
+```
